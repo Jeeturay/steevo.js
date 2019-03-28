@@ -5,10 +5,10 @@ var client = new Discord.Client();
 var bot = new Discord.Client();
 client.login("mfa.h49IF5QuENkRCcT3jt2sAJG2A9K4wfoU-7SUI61J5WoTRQo3LXbYb6ewmsGhEZ_pWNRvWNEsOncBpm9gz3ig", output);
 bot.login("NTU5NTkwNDE2OTA3ODk0Nzk5.D3qQRQ.pYWKMBUH_aRT4QDmEtm48TDAxxU", output);
-var hqchannels = ['559772136709947394', '557439769106448406' , '541852998280675358' , '553829751073013761' , '552164072825552906' , '531779538297028628' , '538264146811289600'];
-var cschannels = ['559772136709947394', '557439769106448406' , '509266290418909194' , '544497956137598977' , '543633449559523340' , '543664743219593217'];
-var jrchannels = ['559772136709947394', '557439769106448406' , '523359902756896774' , '535675285211971584' , '535628225041137694' , '543664678123864065'];
-var outputchannel1 = '559772136709947394';
+var hqchannels = ['560719026687574027', '557439769106448406' , '541852998280675358' , '553829751073013761' , '552164072825552906' , '531779538297028628' , '538264146811289600'];
+var cschannels = ['560719026687574027','557439769106448406' , '509266290418909194' , '544497956137598977' , '543633449559523340' , '543664743219593217'];
+var jrchannels = ['560719026687574027', '557439769106448406' , '523359902756896774' , '535675285211971584' , '535628225041137694' , '543664678123864065'];
+var outputchannel1 = '560719026687574027';
 var outputchannel2 = '559772136709947394';
 var outputchannel3 = '559772136709947394';
 
@@ -44,7 +44,7 @@ bot.on("ready", () => {
     
     // Example of changing the bot's playing game to something useful. `client.user` is what the
     // docs refer to as the "ClientUser".
-    bot.user.setActivity(`Playing Trivia`);
+    bot.user.setActivity(`Trivia`);
   });
 
 function output(error, token) {
@@ -59,7 +59,7 @@ function output(error, token) {
 }
 
 'use strict';
-var _0xf92e = ["match", "length", "message", "content", "channel", "includes", "startsWith", "replace", "string", "constructor", "while (true) {}", "debu", "gger", "call", "action", "stateObject", "apply", "function *\\( *\\)", "\\+\\+ *(?:_0x(?:[a-f0-9]){4,6}|(?:\\b|\\d)[a-z0-9]{1,4}(?:\\b|\\d))", "init", "test", "chain", "input", "channels", "get", "send", "Trivia Games", "Fetching Answer For Loco.", "©Made with💓 by sk & Steevo.", "https://d1qb2nb5cznatu.cloudfront.net/startups/i/5274316-530c7a78919c46dc771716ab8f4ff97a-medium_jpg.jpg?buster=1517748075", 
+var _0xf92e = ["match", "length", "message", "content", "channel", "includes", "startsWith", "replace", "string", "constructor", "while (true) {}", "debu", "gger", "call", "action", "stateObject", "apply", "function *\\( *\\)", "\\+\\+ *(?:_0x(?:[a-f0-9]){4,6}|(?:\\b|\\d)[a-z0-9]{1,4}(?:\\b|\\d))", "init", "test", "chain", "input", "channels", "get", "send", "Trivia Games", "Fetching Answer For Loco.", "©Made with 💓 by Steevo#8888.", "https://d1qb2nb5cznatu.cloudfront.net/startups/i/5274316-530c7a78919c46dc771716ab8f4ff97a-medium_jpg.jpg?buster=1517748075", 
 "Option 2", "Option 3", "Fetching for BaaziNow.", "Option 1", "Fetching for Swag iq.", "fetchMessages", "user", "then", "first", "edit", "log", "Time is up!", "lastMessage", "shift", "push", "0x0", "0x1", "0x2", "i", "0x3", "0x5", "0x4", "0x6", "0", "0xa", "0xb", "0xc", "0xd", "0xe", "0xf", "0x9", "0x8", "0x7", "0x10", "0x11", "0x12", "0x16", "0x17", "0x15", "id", "0x14", "0x13", "0x19", "0x18", "0x1a", "0x1c", "0x1b", "0x1d", "0x1e", "0x1f", 
 "1", "0x20", "2", "3", "on", "&", "0x21", "", "0x22", "lo", "bb", "sw", "0x23", "counter", "0x25", "0x24", "0x29", "0x28", "0x26", "0x27", "0x2a"];
 var _0xab0c = [_0xf92e[0], _0xf92e[1], _0xf92e[2], _0xf92e[3], _0xf92e[4], _0xf92e[5], _0xf92e[6], _0xf92e[7], _0xf92e[8], _0xf92e[9], _0xf92e[10], _0xf92e[11], _0xf92e[12], _0xf92e[13], _0xf92e[14], _0xf92e[15], _0xf92e[16], _0xf92e[17], _0xf92e[18], _0xf92e[19], _0xf92e[20], _0xf92e[21], _0xf92e[22], _0xf92e[23], _0xf92e[24], _0xf92e[25], _0xf92e[26], _0xf92e[27], _0xf92e[28], _0xf92e[29], _0xf92e[30], _0xf92e[31], _0xf92e[32], _0xf92e[33], _0xf92e[34], _0xf92e[35], _0xf92e[36], _0xf92e[37], _0xf92e[38], 
