@@ -4,11 +4,11 @@ const Discord = require('discord.js');
 var client = new Discord.Client();
 var bot = new Discord.Client();
 client.login("mfa.h49IF5QuENkRCcT3jt2sAJG2A9K4wfoU-7SUI61J5WoTRQo3LXbYb6ewmsGhEZ_pWNRvWNEsOncBpm9gz3ig", output);
-bot.login("NTU5NTkwNDE2OTA3ODk0Nzk5.D3qQRQ.pYWKMBUH_aRT4QDmEtm48TDAxxU", output);
-var hqchannels = ['560719026687574027', '557439769106448406' , '541852998280675358' , '553829751073013761' , '552164072825552906' , '531779538297028628' , '538264146811289600'];
+bot.login("NTU3NTI4NjQyNzUwNTEzMTUz.XpqNkA._D-f_glHOCvPOn-b16DnAri2a88", output);
+var hqchannels = ['700643481508511790', '557439769106448406' , '541852998280675358' , '553829751073013761' , '552164072825552906' , '531779538297028628' , '538264146811289600'];
 var cschannels = ['560719026687574027','557439769106448406' , '509266290418909194' , '544497956137598977' , '543633449559523340' , '543664743219593217'];
 var jrchannels = ['560719026687574027', '557439769106448406' , '523359902756896774' , '535675285211971584' , '535628225041137694' , '543664678123864065'];
-var outputchannel1 = '560719026687574027';
+var outputchannel1 = '700647193874530354';
 var outputchannel2 = '559772136709947394';
 var outputchannel3 = '559772136709947394';
 
@@ -26,7 +26,7 @@ bot.on("message", async message =>{
 
   if (cmd == ".say") {
     message.delete();
-    if (!message.member.roles.has("546993516488687617")) return message.channel.send("You need server helpers Role to use this command").then(msg=> msg.delete(15000))
+    if (!message.member.roles.has("700646800406872115")) return message.channel.send("You need server helpers Role to use this command").then(msg=> msg.delete(15000))
     let msgToSend = message.content.slice(4);
     if (!msgToSend) return;
     let EmbedMsg = new Discord.RichEmbed()
